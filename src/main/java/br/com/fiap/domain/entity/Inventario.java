@@ -2,24 +2,35 @@ package br.com.fiap.domain.entity;
 
 import java.time.LocalDate;
 
-public class Inventario {
+public class Inventario  {
+    private Long id;
 
-    private Departamento departamento;
-
-    private LocalDate inicio;
+     private LocalDate inicio;
 
     private LocalDate fim;
+
+    private Departamento departamento;
 
     private String relatorio;
 
     public Inventario() {
     }
 
-    public Inventario(Departamento departamento, LocalDate inicio, LocalDate fim, String relatorio) {
+    public Inventario(Long id, Departamento departamento, LocalDate inicio, LocalDate fim, String relatorio) {
+        this.id = id;
         this.departamento = departamento;
         this.inicio = inicio;
         this.fim = fim;
         this.relatorio = relatorio;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public Inventario setId(Long id) {
+        this.id = id;
+        return this;
     }
 
     public Departamento getDepartamento() {
@@ -61,7 +72,8 @@ public class Inventario {
     @Override
     public String toString() {
         return "Inventario{" +
-                "departamento=" + departamento +
+                "id=" + id +
+                ", departamento=" + departamento +
                 ", inicio=" + inicio +
                 ", fim=" + fim +
                 ", relatorio='" + relatorio + '\'' +
