@@ -26,9 +26,13 @@ CP-I - Enterprise Application Development aplicada em 30/08/2023.
 
 # Estudo de caso
 
-Para uma holding, um Sistema de Informação para controle de inventário de bens desempenha um papel crucial na gestão eficiente de seus ativos. Uma holding é uma empresa que possui participações em outras empresas, mas não necessariamente está envolvida diretamente na produção de bens ou serviços. No entanto, ela pode ter uma ampla gama de ativos, como participações em outras empresas, investimentos financeiros, propriedades imobiliárias e outros bens tangíveis e intangíveis.
+Inventariar os bens de uma empresa é um procedimento de extrema importância que proporciona uma série de benefícios essenciais para a gestão eficiente e o sucesso contínuo do negócio. O processo de inventário envolve a catalogação e o registro detalhado de todos os ativos tangíveis e intangíveis da empresa, permitindo um controle preciso sobre o que a empresa possui e como esses ativos são utilizados.
+
+Um inventário completo e atualizado oferece uma visão clara do patrimônio da empresa, fornecendo informações cruciais para uma variedade de finalidades, desde tomadas de decisões estratégicas até conformidade regulatória.
 
 Um sistema de controle de inventário permite que a **Holding Benezinho** 🤓👍🏾 acompanhe e registre todos os ativos de sua propriedade. Isso inclui informações detalhadas sobre as participações em empresas, títulos, propriedades e outros ativos, permitindo uma visão geral completa de seu portfólio.
+
+Para uma holding, um Sistema de Informação para controle de inventário de bens desempenha um papel crucial na gestão eficiente de seus ativos. Uma holding é uma empresa que possui participações em outras empresas, mas não necessariamente está envolvida diretamente na produção de bens ou serviços. No entanto, ela pode ter uma ampla gama de ativos, como participações em outras empresas, investimentos financeiros, propriedades imobiliárias e outros bens tangíveis e intangíveis.
 
 Por esses e outros motivos decidimos desenvolver nosso próprio **Sistema de Controle de Inventário**.
 
@@ -81,7 +85,7 @@ Alterar o arquivo contido em  **documentacao/equipe.txt** para incluir os RMs e 
     4. Existe a necessidade de ser impedir que o **nome** do bem seja nulo.
 
 
-3. **(1,5 Ponto)** adicionar corretamente as anotações JPA na classe **TipoDeBem**.
+3. **(1 Ponto)** adicionar corretamente as anotações JPA na classe **TipoDeBem**.
     
 
    Lembre-se que:
@@ -98,7 +102,7 @@ Alterar o arquivo contido em  **documentacao/equipe.txt** para incluir os RMs e 
 
 
 
-5. **(1 Ponto)** adicionar corretamente as anotações JPA na classe **Inventario**.
+5. **(1,5 Ponto)** adicionar corretamente as anotações JPA na classe **Inventario**.
    
     Lembre-se que:
 
