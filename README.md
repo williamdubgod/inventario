@@ -1,4 +1,4 @@
-# Sistema de Inventario dos Bens da Holding Benezinho 🤓👍🏾
+# Sistema de Inventário dos Bens da Holding Benezinho 🤓👍🏾
 
 CP-I - Enterprise Application Development aplicada em 30/08/2023.
 
